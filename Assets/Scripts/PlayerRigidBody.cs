@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerRigidBody : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class PlayerRigidBody : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            Debug.Log(gameObject.name + " hit " + collision.gameObject.name);
+            Debug.Log(gameObject.name + " hit " + collision.gameObject.name + "Hit hazard restarting level");
+            SceneManager.LoadScene(1);
         }
 
     }    
