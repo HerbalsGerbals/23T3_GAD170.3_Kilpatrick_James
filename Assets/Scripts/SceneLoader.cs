@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,7 +22,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (levelIndex > 1 && levelIndex <= SceneManager.sceneCountInBuildSettings - 1)
         {
-            currentLevelIndex = levelIndex; 
+            currentLevelIndex = levelIndex;
             LoadScene(currentLevelIndex);
         }
     }
@@ -33,7 +31,7 @@ public class SceneLoader : MonoBehaviour
         /// <summary>
         /// Loads new scene
         /// </summary>
-        
+
         SceneManager.LoadScene(index);
         Debug.Log("Start Button pressed, Loaded Next Scene");
     }

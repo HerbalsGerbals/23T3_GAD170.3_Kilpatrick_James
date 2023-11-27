@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,11 +6,11 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class QuitFeature : MonoBehaviour
 {
-  
+
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             //If player presses escape returns Player to Main Menu scene.
             Debug.Log("Escape key was pressed, Returning to Main Menu");

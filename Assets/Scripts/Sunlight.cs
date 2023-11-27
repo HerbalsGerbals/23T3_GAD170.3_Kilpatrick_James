@@ -17,9 +17,12 @@ public class Sunlight : MonoBehaviour
     //if isPlayerCharacterNearby = true allow for GetKeyDown(keyToPress) to run
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Trigger Activated" + other);
+            isPlayerCharacterNearby = true;
+        }
         
-        Debug.Log("Trigger Activated" + gameObject);
-        isPlayerCharacterNearby = true;
     }
 
     private void OnTriggerExit(Collider other)
