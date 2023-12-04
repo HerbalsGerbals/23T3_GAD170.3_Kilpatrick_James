@@ -7,11 +7,12 @@ public class Sunlight : MonoBehaviour
     [SerializeField] private int sceneIndexToLoad;
     [SerializeField] private KeyCode keyToPress;
     [SerializeField] private bool isPlayerCharacterNearby = false;
+    [SerializeField] private GameObject textLabel;
 
     // Want to dectect player character in area
     private void SunlightReached()
     {
-        SceneManager.LoadScene(sceneIndexToLoad);
+        SceneManager.LoadScene(0);
     }
     //When Player Character enters area set isPlayerCharacterNearby to true
     //if isPlayerCharacterNearby = true allow for GetKeyDown(keyToPress) to run
@@ -21,6 +22,7 @@ public class Sunlight : MonoBehaviour
         {
             Debug.Log("Trigger Activated" + other);
             isPlayerCharacterNearby = true;
+            textLabel.SetActive(true);
         }
         
     }
@@ -28,6 +30,7 @@ public class Sunlight : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         isPlayerCharacterNearby = false;
+        textLabel.SetActive(false);
     }
     private void Update()
     {
@@ -40,4 +43,5 @@ public class Sunlight : MonoBehaviour
             SunlightReached();
         }
     }
+
 }
