@@ -9,11 +9,6 @@ public class RushingWater : MonoBehaviour
     //Want to display tutorial when entering area (trigger)
     //Should be at first hazard
 
-    private void TutorialTriggered()
-    {
-        
-    }
-
     //When Entering Trigger
     private void OnTriggerEnter(Collider other)
     {
@@ -31,7 +26,9 @@ public class RushingWater : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log(gameObject.name + " hit " + collision.gameObject.name + "Hit hazard restarting level");
+            //Debug.log
             SceneManager.LoadScene(sceneIndexToLoad);
+            //If hit restart level
         }
 
     }
