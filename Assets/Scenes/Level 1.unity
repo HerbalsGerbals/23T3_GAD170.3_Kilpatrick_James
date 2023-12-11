@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &33523495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33523496}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33523496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33523495}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.29, y: 7.98, z: 27.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &36683358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,6 +589,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &253589576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 34.28846
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 18.119389
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 938009815303263035, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409342594966887350, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      propertyPath: m_Name
+      value: RainDropsSpawner (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2409342594966887350, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 957360563}
+    - targetCorrespondingSourceObject: {fileID: 2409342594966887350, guid: a7b17b963010f0042b5e4732be0dae68,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 957360562}
+  m_SourcePrefab: {fileID: 100100000, guid: a7b17b963010f0042b5e4732be0dae68, type: 3}
 --- !u!1 &254165843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1288,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 980822165}
   m_SourcePrefab: {fileID: 100100000, guid: 782620bb84e6c1143ab164ff5250601d, type: 3}
+--- !u!1 &551501650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551501651}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &551501651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551501650}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.19, y: 7.98, z: 46.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576407350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +1547,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 27.52, y: 7.98, z: -21.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &637787441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637787442}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637787442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637787441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.33, y: 7.98, z: 29.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7120,6 +7299,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &957360561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2409342594966887350, guid: a7b17b963010f0042b5e4732be0dae68,
+    type: 3}
+  m_PrefabInstance: {fileID: 253589576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &957360562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957360561}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &957360563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957360561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687b85c0e41e9b343a06a66cf93d1ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainDropPrefab: {fileID: 8825352313511204051, guid: 79edc9fa2458f6642a3fd9d22630127b,
+    type: 3}
+  rainDropSpawnPoints:
+  - {fileID: 1530441833}
+  - {fileID: 637787441}
+  - {fileID: 1625749190}
+  - {fileID: 966425352}
+  - {fileID: 33523495}
+  - {fileID: 1707375855}
+  - {fileID: 551501650}
+  rain: []
+--- !u!1 &966425352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966425353}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966425353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966425352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.29, y: 7.98, z: 40.97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &980822164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8808417912028084118, guid: 782620bb84e6c1143ab164ff5250601d,
@@ -7904,6 +8164,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0.003, y: 5.47}
   m_SizeDelta: {x: 17, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1530441833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530441834}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530441834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530441833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.628733, y: 7.98, z: 29.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1589789309 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8808417912028084118, guid: 782620bb84e6c1143ab164ff5250601d,
@@ -7944,6 +8235,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 0}
   sceneIndexToLoad: 1
+--- !u!1 &1625749190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625749191}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1625749191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625749190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.33, y: 7.98, z: 40.97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1686854013
 GameObject:
   m_ObjectHideFlags: 0
@@ -8136,6 +8458,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1272987359}
   m_SourcePrefab: {fileID: 100100000, guid: a7b17b963010f0042b5e4732be0dae68, type: 3}
+--- !u!1 &1707375855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1707375856}
+  m_Layer: 0
+  m_Name: RainDropSpawnLocations (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1707375856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707375855}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.19, y: 7.98, z: 27.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1792536174
 GameObject:
   m_ObjectHideFlags: 0
@@ -13830,6 +14183,13 @@ SceneRoots:
   - {fileID: 220540350}
   - {fileID: 5182568788982056552}
   - {fileID: 1792536175}
+  - {fileID: 1530441834}
+  - {fileID: 637787442}
+  - {fileID: 1625749191}
+  - {fileID: 966425353}
+  - {fileID: 33523496}
+  - {fileID: 1707375856}
+  - {fileID: 551501651}
   - {fileID: 1073103600}
   - {fileID: 1862137320}
   - {fileID: 614541668}
@@ -13839,3 +14199,4 @@ SceneRoots:
   - {fileID: 576407351}
   - {fileID: 478160896}
   - {fileID: 1695989243}
+  - {fileID: 253589576}
